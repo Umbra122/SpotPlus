@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the dashboard!</h1>
+    <h2>Here is all of the current tags: </h2>
+    <table>
+        <tr>
+            <th>Tag Name</th>
+            <th>Tag Description</th>
+            <th>List of songs under this tag</th>
+        </tr>
+        @foreach (var tag in ViewBag.tags)
+        {
+            <tr>   
+                <td>@tag.TagName</td>
+                <td>@tag.TagDescription</td>
+                <td><a href="tagList/@tag.TagId">Song List</a></td>
+            </tr>
+        }
+    </table>
+
+    @* <h2>Here is all of your Private Tags!</h2>
+
+    <table>
+        <tr>
+            <th>Tag Name</th>
+            <th>Tag Description</th>
+        </tr>
+        @foreach (var tag in ViewBag.privateTags)
+        {
+            <td>@tag.TagName</td>
+            <td>@tag.TagDescription</td>
+        }
+    </table> *@
+
+    <a href="/newTag">Create a new Tag!</a>
+    @* <a href="/userSongs">Your Tagged Songs</a> *@
+    <a href="playlists">Your Playlists</a>
+</body>
+</html>

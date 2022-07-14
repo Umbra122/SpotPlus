@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs Associated with this tag</title>
+</head>
+<body>
+    <div>
+        <h1>Tag - @ViewBag.tag.TagName</h1>
+        <h2>Description: @ViewBag.tag.TagDescription</h2>
+    </div>
+    <div>
+        @using SpotifyPlus.Models;
+        @foreach (SongsToTags item in ViewBag.songs)
+        {
+            <h3>@item.Song.SongName</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/@item.Song.Id?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        }
+    </div>
+</body>
+</html>

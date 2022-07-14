@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add your tag to the song</title>
+</head>
+<body>
+    <h1>Add a Tag to the song: @ViewBag.songName</h1>
+    <form action="/addTagtoSong/@ViewBag.songId" method="post">
+        <select name="tagId" id="tagId">
+            @foreach (var item in ViewBag.tags)
+            {
+                <option value="@item.TagId">@item.TagName</option>
+            }
+        </select>
+        <button>Add this tag to this song</button>
+    </form>
+</body>
+</html>

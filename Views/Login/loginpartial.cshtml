@@ -1,0 +1,30 @@
+<style>
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+    span{
+        color: orangered;
+    }
+</style>
+
+@using SpotifyPlus.Models
+@model LoginUser
+<form asp-action="Login" asp-controller="Login" method="POST" class="box">
+    <span asp-validation-for="LoginUsername"></span>
+    <label asp-for="LoginUsername"></label>
+    <input asp-for="LoginUsername">
+    <span asp-validation-for="LoginPassword"></span>
+    <label asp-for="LoginPassword"></label>
+    <input asp-for="LoginPassword">
+    <input value="Login User" type="submit">
+</form>
+
+@* <form action="/login" method="post" class="box">
+    <label for="email">Email: </label>
+    <input type="text" name="email">
+    <label for="password">Password: </label>
+    <input type="password" name="password">
+    <button>Login</button>
+</form> *@

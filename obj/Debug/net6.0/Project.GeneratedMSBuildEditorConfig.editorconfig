@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project
+build_property.RootNamespace = Project
+build_property.ProjectDir = c:\Virtual Env\C#\Project\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Virtual Env\C#\Project
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Virtual Env/C\#/Project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Login/loginpartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cbG9naW5wYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Login/registrationpartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5ccmVnaXN0cmF0aW9ucGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/addTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVxhZGRUYWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVxkYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/newTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVxuZXdUYWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/playback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVxwbGF5YmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/playlists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVxwbGF5bGlzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/songlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVxzb25nbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Spotify/tagSongList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdGlmeVx0YWdTb25nTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Virtual Env/C\#/Project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9q8ibpt6yd

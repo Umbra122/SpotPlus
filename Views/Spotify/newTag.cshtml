@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Tag</title>
+</head>
+<body>
+    @using SpotifyPlus.Models
+    @model Tag
+    <form asp-action="CreateTag" asp-controller="Spotify" method="POST" class="box">
+        <span asp-validation-for="TagName"></span>
+        <label asp-for="TagName"></label>
+        <input asp-for="TagName">
+        <span asp-validation-for="TagDescription"></span>
+        <label asp-for="TagDescription"></label>
+        <input asp-for="TagDescription">
+        <label for="PrivateCheck">Is This a private Tag?</label>
+        <input type="checkbox" name="PrivateCheck" value="1">
+        <input value="Create New Tag!" type="submit">
+    </form>
+</body>
+</html>
